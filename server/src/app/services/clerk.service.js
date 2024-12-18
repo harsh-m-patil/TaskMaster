@@ -10,7 +10,7 @@ export class ClerkService {
   static async getUserLists() {
     const clerkClient = this.getClerkClient();
     const users = await clerkClient.users.getUserList();
-    return users;
+    return [users, null];
   }
 
   static async getUser(userId) {

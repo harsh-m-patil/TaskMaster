@@ -55,6 +55,7 @@ export class ProjectService {
 
       project.status = "Assigned";
       project.assignedTo = userId;
+      project.assignedToUserName = user.username;
 
       await project.save();
 

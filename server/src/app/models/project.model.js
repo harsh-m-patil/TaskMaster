@@ -10,11 +10,24 @@ const projectSchema = new Schema({
     type: String,
     required: true,
   },
+  createByUserName: {
+    type: String,
+    default: "user",
+  },
   deadline: {
     type: Date,
     required: true,
   },
   assignedTo: String,
+  assignedToUserName: String,
+  totalTasks: {
+    type: Number,
+    default: 10,
+  },
+  completedTasks: {
+    type: Number,
+    default: 0,
+  },
   status: {
     type: String,
     default: "UnAssigned",
