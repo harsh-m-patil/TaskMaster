@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Website Redesign",
+    "description": "Redesign the company website with a modern UI/UX.",
+    "createdBy": "John Doe",
+    "deadline": "2024-07-15T00:00:00.000Z",
+    "assignedTo": "Jane Smith",
+    "status": "In Progress"
+  },
+  {
+    "title": "API Development",
+    "description": "Develop a REST API for the e-commerce platform.",
+    "createdBy": "Alice Johnson",
+    "deadline": "2024-06-30T00:00:00.000Z",
+    "assignedTo": "Bob Williams",
+    "status": "Assigned"
+  },
+  {
+    "title": "Database Migration",
+    "description": "Migrate the database from SQL Server to PostgreSQL.",
+    "createdBy": "Michael Brown",
+    "deadline": "2024-08-10T00:00:00.000Z",
+    "assignedTo": "Chris Evans",
+    "status": "UnAssigned"
+  },
+  {
+    "title": "Mobile App Development",
+    "description": "Create a cross-platform mobile app for the store.",
+    "createdBy": "David Wilson",
+    "deadline": "2024-09-01T00:00:00.000Z",
+    "assignedTo": "Emily Clark",
+    "status": "Completed"
+  },
+  {
+    "title": "Security Audit",
+    "description": "Conduct a full security audit for the system.",
+    "createdBy": "Sophia Miller",
+    "deadline": "2024-07-20T00:00:00.000Z",
+    "assignedTo": "",
+    "status": "UnAssigned"
+  }
+]
